@@ -1,5 +1,6 @@
 
 
+# https://rubular.com/r/H4O0JukTsStyA1
 def extract_urls(text)
     pattern = /((https|http|ftp):\/\/(www\.)?[\S]+[^.\s])/
     urls = text.scan pattern
