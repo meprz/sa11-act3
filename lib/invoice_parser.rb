@@ -1,6 +1,6 @@
 
 
-#...
+# https://rubular.com/r/wDdV03NuMePnWv
 def parse_invoices(invoice_data)
     invoice_data.split("\n").each do |entry|
         pattern = /(\d{4}-\d{2}-\d{2}) - (INV\d{3}) - ([a-zA-Z ]+) - \$(\d+)/
